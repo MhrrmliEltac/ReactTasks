@@ -1,0 +1,20 @@
+.container{
+    width: 300px;
+    height: fit-content;
+    border: 2px solid aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    .information{
+        height: fit-content;
+        border: 2px solid aliceblue;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        text-align: left;
+        margin-top: 10px;
+        .paragraph{
+            padding-left: 20px;
+        }
+    }
+}

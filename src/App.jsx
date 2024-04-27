@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
 import './App.css'
-import User from './components/Ders 1/UserCv/User'
+import Profile from './components/Ders2/Profile/Profile'
 
 function App() {
 
   return (
     <>
-      <User/>
+      <Profile/>
     </>
   )
 }

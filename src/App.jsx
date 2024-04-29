@@ -1,12 +1,11 @@
 import './App.css'
-import Profile from './components/Ders2/Profile/Profile'
-import Userlogin from './components/Hadiseler ve Veziyyet/Userlogin'
+import Dice2 from './components/Komponentin Heyat Dovru/Dice2'
 
 function App() {
 
   return (
     <>
-      <Userlogin />
+      <Dice2/>
     </>
   )
 }

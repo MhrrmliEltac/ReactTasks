@@ -1,13 +1,14 @@
-import './App.css'
-import Dice2 from './components/Komponentin Heyat Dovru/Dice2'
+import "./App.css";
+import Pizza from "./components/Pizza/Pizza";
+// import TodoList from "./components/ToDoList/TodoList";
 
 function App() {
-
   return (
     <>
-      <Dice2/>
+      {/* <TodoList/> */}
+      <Pizza />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,41 @@
+.card {
+  width: 33.3%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  img {
+    width: 50%;
+  }
+  .info {
+    width: 50%;
+    /* font-size: 10px; */
+    .about {
+      padding: 10px;
+    }
+    .price {
+      display: flex;
+      align-items: baseline;
+      p {
+        margin-right: 5px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: #eebc60;
+      }
+      button {
+        border-color: rgba(255, 255, 255, 0.8);
+        background: none;
+        border-width: 1px;
+        color: #fff;
+        width: 50px;
+        height: 30px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      button:hover{
+        background-color: #fac564;
+        color: black;
+      }
+    }
+  }
+}

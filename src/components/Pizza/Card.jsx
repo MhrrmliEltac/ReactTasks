@@ -2,17 +2,8 @@ import { useState } from "react";
 import "./card.css";
 
 const Card = (props) => {
-  const [state, setState] = useState(true);
   const { name, price, description, image} = props
- /*  const handleClick = () => {
-    if (state) {
-      console.log("clicked");
-    } 
-    else{
-        console.log("clicked again");
-    }
-    setState(!state);
-  }; */
+
 
   return (
     <>
